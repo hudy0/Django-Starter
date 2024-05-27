@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistory">
+    <accountData>
+      <list>
+        <AccountData>
+          <accountId value="VXNlcjoyNjA5NDM=" />
+          <chats>
+            <list>
+              <chat>
+                <internalId value="74dfe73b-0be7-4734-bfc1-313c8d3c15ea" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="73a3fdac-ddca-4c75-a229-fa701546a469" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="i want a starter html code" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="Sure, here's a basic starter HTML code:&#10;&#10;```html&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;&#10;    &lt;title&gt;My Website&lt;/title&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;    &lt;header&gt;&#10;        &lt;nav&gt;&#10;            &lt;ul&gt;&#10;                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&#10;                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&#10;                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;&#10;                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;&#10;            &lt;/ul&gt;&#10;        &lt;/nav&gt;&#10;    &lt;/header&gt;&#10;    &#10;    &lt;main&gt;&#10;        &lt;section&gt;&#10;            &lt;h1&gt;Welcome to My Website&lt;/h1&gt;&#10;            &lt;p&gt;This is a sample starter HTML code for your website.&lt;/p&gt;&#10;        &lt;/section&gt;&#10;    &lt;/main&gt;&#10;    &#10;    &lt;footer&gt;&#10;        &lt;p&gt;&amp;copy; 2023 My Website. All rights reserved.&lt;/p&gt;&#10;    &lt;/footer&gt;&#10;    &#10;    &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;```&#10;&#10;This code includes a basic HTML structure with a header, navigation menu, main content area, and footer. You can customize and expand upon this code to fit your specific website requirements.&#10;&#10;Note that this code also includes links to an external CSS file (`styles.css`) for styling and a JavaScript file (`script.js`) for any client-side scripting you might need. You'll need to create these files separately and link them correctly in your project directory." />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-05-27T22:17:37.70433" />
+              </chat>
+            </list>
+          </chats>
+          <defaultLlm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </defaultLlm>
+        </AccountData>
+      </list>
+    </accountData>
+  </component>
+</project>
