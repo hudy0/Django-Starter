@@ -1,12 +1,18 @@
+import os
 from pathlib import Path
+import environ
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-SECRET_KEY = "django-insecure-3(ccx3t*z1^*2f^!z==39h(dxza*5)7&yy0@@ely!mo51u0e0&"
-
-DEBUG = True
-
-ALLOWED_HOSTS = []
+env = environ.Env(
+    DEBUG=(bool, False),
+    ALLOWED_HOSTS=(list, []),
+    INTERNAL_IPS=(list, []),
+)
+environ.Env.read_env(os.path.join(BASE_DIR / "project/.env"))
+SECRET_KEY = env("SECRET_KEY")
+DEBUG = env("DEBUG")
+ALLOWED_HOSTS: list[str] = env("ALLOWED_HOSTS")
+INTERNAL_IPS: list[str] = env("INTERNAL_IPS")
 
 
 # Application definition
