@@ -3,9 +3,9 @@
   <component name="Black">
     <option name="cmdArguments" value="--line-length=130" />
     <option name="enabledOnSave" value="true" />
-    <option name="sdkName" value="Python 3.12 (Django-Starter)" />
+    <option name="sdkName" value="Python 3.12 (DjangoStarter)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (Django-Starter)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (DjangoStarter)" project-jdk-type="Python SDK" />
   <component name="PyCharmProfessionalAdvertiser">
     <option name="shown" value="true" />
   </component>
