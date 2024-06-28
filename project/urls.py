@@ -5,8 +5,8 @@ from django.urls import include, path
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('accounts/', include('allauth.urls')),
-    path('profile/', include('users.urls')),
+    path("accounts/", include("allauth.urls")),
+    path("profile/", include("users.urls")),
     path("", include("home.urls")),
 ]
 # Only used when DEBUG=True, whitenoise can serve files when DEBUG=False

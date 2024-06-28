@@ -8,11 +8,11 @@ from .models import Profile
 class ProfileForm(ModelForm):
     class Meta:
         model = Profile
-        exclude = ['user']
+        exclude = ["user"]
         widgets = {
-            'image': forms.FileInput(),
-            'display_name': forms.TextInput(attrs={'placeholder': 'Add display name'}),
-            'info': forms.Textarea(attrs={'rows': 3, 'placeholder': 'Add information'})
+            "image": forms.FileInput(),
+            "display_name": forms.TextInput(attrs={"placeholder": "Add display name"}),
+            "info": forms.Textarea(attrs={"rows": 3, "placeholder": "Add information"}),
         }
 
 
@@ -21,4 +21,4 @@ class EmailForm(ModelForm):
 
     class Meta:
         model = User
-        fields = ['email']
+        fields = ["email"]
